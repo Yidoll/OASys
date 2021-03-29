@@ -21,6 +21,5 @@ spring:
     type: redis
     cache-names: permission-role
   redis:
-    host: tbigdata02.gz.batmobi.cn
+    host: 192.168.1.15
     port: 6379
-    password: Bigdata#321
