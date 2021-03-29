@@ -9,7 +9,7 @@ spring:
         server-addr: localhost:8848
   data:
     mongodb:
-      host: localhost
+      host: 192.168.1.15
       port: 27017
       database: chat_record
   jackson:
@@ -20,3 +20,4 @@ spring:
     consumer:
       group-id: chat
       auto-offset-reset: earliest
+      bootstrap-servers: 192.168.1.15:9092

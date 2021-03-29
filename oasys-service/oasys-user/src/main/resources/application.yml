@@ -10,9 +10,9 @@ spring:
       discovery:
         server-addr: localhost:8848
   datasource:
-    url: jdbc:mysql://localhost/oasys?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://localhost:3306/oasys?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
     username: root
-    password: root
+    password: Caiyd.
   jackson:
     default-property-inclusion: non_null
     date-format: yyyy-MM-dd HH:mm
@@ -20,3 +20,7 @@ spring:
   cache:
     type: redis
     cache-names: permission-role
+  redis:
+    host: tbigdata02.gz.batmobi.cn
+    port: 6379
+    password: Bigdata#321

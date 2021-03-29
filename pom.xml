@@ -4,6 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <modules>
+        <module>oasys-common</module>
         <module>oasys-auth</module>
         <module>oasys-gateway</module>
         <module>oasys-service</module>

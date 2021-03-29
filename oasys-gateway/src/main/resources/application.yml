@@ -55,3 +55,7 @@ spring:
           uri: lb://search-service
           predicates:
             - Path=/api/searches/**
+  redis:
+    host: tbigdata02.gz.batmobi.cn
+    port: 6379
+    password: Bigdata#321

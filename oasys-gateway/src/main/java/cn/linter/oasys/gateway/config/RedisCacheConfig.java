@@ -1,4 +1,4 @@
-package cn.linter.oasys.user.config;
+package cn.linter.oasys.gateway.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.cache.annotation.EnableCaching;
